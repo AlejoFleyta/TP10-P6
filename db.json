@@ -1,0 +1,69 @@
+{
+  "clientes": [
+    {
+      "id": "C-1001",
+      "nombre": "Alejo",
+      "contacto": "alejo@mail.com",
+      "estado": "activo"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T-2025-000123",
+      "clienteId": "C-1001",
+      "descripcion": "No puedo acceder a mi correo",
+      "categoria": "Soporte Técnico",
+      "prioridad": "Alta",
+      "estado": "Abierto",
+      "fechaCreacion": "2025-09-06T18:30:00Z"
+    }
+  ],
+  "notificaciones": [],
+  "metricas": []
+}
+
+{
+  "clientes": [
+    {
+      "id": "C-1001",
+      "nombre": "Alejo Fleyta",
+      "contacto": "alejo@mail.com",
+      "password": "Secr3ta!",
+      "estado": "activo",
+      "registrado": true,
+      "fechaAlta": "2025-09-06"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T-2025-000123",
+      "clienteId": "C-1001",
+      "descripcion": "No puedo acceder a mi correo",
+      "categoria": "Soporte Técnico",
+      "prioridad": "Alta",
+      "estado": "Abierto",
+      "fechaCreacion": "2025-09-06T18:30:00Z"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id": "N-500",
+      "clienteId": "C-1001",
+      "canal": "email",
+      "mensaje": "Su ticket T-2025-000123 ha sido cerrado",
+      "ticketId": "T-2025-000123",
+      "estado": "Enviada",
+      "fechaEnvio": "2025-09-06T19:00:00Z"
+    }
+  ],
+  "metricas": [
+    {
+      "id": "M-1",
+      "totalTickets": 250,
+      "ticketsAbiertos": 45,
+      "ticketsCerrados": 205,
+      "tiempoPromedioResolucionHoras": 12.5,
+      "cumplimientoSLA": "92%"
+    }
+  ]
+}
